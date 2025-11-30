@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    height: 110vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background:url(stopwatch\ 2.jpg)center/cover no-repeat ;
+    color: white;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.container{
+    width: 300px;
+    background-color: rgba(126, 124, 124, 0.169);
+    border-radius: 50px ;
+    box-shadow: 4px 4px 10px 4px black;
+    text-align: center;
+}
+
+.display{
+    background-color: rgba(141, 139, 139, 0.406);
+    color: rgb(253, 252, 252);
+    font-size: 40px;
+    padding: 20px 50px;
+    border-radius: 50px;
+    box-shadow: 4px 4px 10px 4px black;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+}
+.buttons{
+    padding-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+}
+button{
+    font-size: 16px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(11, 9, 0, 0.689);
+    color: white;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: rgba(6, 4, 0, 0.815);
+     transform: scale(1.1)
+}
